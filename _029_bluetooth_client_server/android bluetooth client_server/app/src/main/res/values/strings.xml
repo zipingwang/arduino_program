@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">BluetoothClientServer</string>
+    <string name="btn_OFF">btn_OFF</string>
+    <string name="btn_ON">btn_ON</string>
+    <string name="btn_Connect">Connect</string>
+    <string name="btn_Disconnect">Disconnect</string>
+</resources>

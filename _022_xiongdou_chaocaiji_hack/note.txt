@@ -1,0 +1,25 @@
+﻿in sketch
+{
+begin: pin3 high value->550
+yule:pin0 and pin1 high(some times pin3 high) 0->900 1>900 3>700
+	alo see combination pin 0 and pin 1 high, pin0 pin 1 max 0123
+turn;pin0 and pin1 pin2 and pin 3 high. pin2 is turn, pin 3 is standup, pin 0 and pin 1 for heating
+idel mode:pin3 high
+
+pin4 is reset pin. note can't digitalRead(pin3) or analogRead(pin3) otherwise, pin4 reset will be failed.
+ pinMode(pin4, OUTPUT);
+      digitalWrite(pin4, HIGH);
+      delay(200);
+      digitalWrite(pin4, LOW);
+}
+
+conclution:
+sketch pin4 is reset pin. pin3 not used, pin0 and pin1 for heating
+
+it has seven pins . physical layout.	
+1.gnd 2bottom heating.3motor 4 top heating 5.?(not used, no connection in pcb) 6.reset 7.power+
+
+but how it knows temperator?
+heat1 and heat2 use pmw to control power(very possible)
+
+屏幕是TM1628 led 驱动芯片

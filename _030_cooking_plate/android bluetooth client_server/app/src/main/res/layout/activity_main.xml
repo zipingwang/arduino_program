@@ -1,0 +1,63 @@
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView android:id="@+id/textViewConnectingStatus" style="@style/fillSpace" android:text="TextView" />
+        <Button android:id="@+id/btnConnect" style="@style/button" android:text="@string/btn_Connect" />
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Spinner android:id="@+id/spinnerCommands" style="@style/fillSpace"  ></Spinner>
+        <Button android:id="@+id/btnSendCommand" android:text="@string/btn_SendCommand_"  style="@style/button" />
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:id="@+id/textViewWorkingStatus"  style="@style/fillSpace"   android:text="workingstatus" />
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView  style="@style/fillSpace"   android:text=" " />
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView  style="@style/fillSpace"   android:text=" " />
+        <TextView android:text="T:" android:layout_height="wrap_content" android:layout_width="wrap_content" />
+        <EditText android:id="@+id/editTextDesiredTemperature" android:layout_width="60dp" android:inputType="number" android:layout_height="wrap_content"/>
+        <TextView android:text="Time:" android:layout_height="wrap_content" android:layout_width="wrap_content"/>
+        <EditText android:id="@+id/editTextContinueTimeAfterDesiredTemperature" android:layout_width="60dp" android:layout_height="wrap_content" android:inputType="number"/>
+        <Button   android:id="@+id/btnSendCommandWithTemperatureAndTime" android:text="@string/btn_SendCommand_" style="@style/button"/>
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView  style="@style/fillSpace"   android:text=" " />
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Button android:id="@+id/btnOnOff" style="@style/button" android:text="On/Off" />
+        <Button android:id="@+id/btnMode" style="@style/button" android:text="Mode" />
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Button android:id="@+id/btnPlus" style="@style/button" android:text="+" />
+        <Button android:id="@+id/btnMinus" style="@style/button" android:text="-" />
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Button android:id="@+id/btnMaximum" style="@style/button" android:text="Max" />
+        <Button android:id="@+id/btnMinimum" style="@style/button" android:text="Min" />
+        <Button android:text="Current T" android:id="@+id/btnTemperature" style="@style/button"/>
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Button android:id="@+id/btn10" style="@style/buttonSmall" android:text="10" />
+        <Button android:id="@+id/btn15" style="@style/buttonSmall" android:text="15" />
+        <Button android:id="@+id/btn20" style="@style/buttonSmall" android:text="20" />
+        <Button android:id="@+id/btn25" style="@style/buttonSmall" android:text="25" />
+        <Button android:id="@+id/btn30" style="@style/buttonSmall" android:text="30" />
+        <Button android:id="@+id/btn35" style="@style/buttonSmall" android:text="35" />
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Button android:id="@+id/btn40" style="@style/buttonSmall" android:text="40" />
+        <Button android:id="@+id/btn45" style="@style/buttonSmall" android:text="45" />
+        <Button android:id="@+id/btn50" style="@style/buttonSmall" android:text="50" />
+        <Button android:id="@+id/btn55" style="@style/buttonSmall" android:text="55" />
+        <Button android:id="@+id/btn60" style="@style/buttonSmall" android:text="60" />
+        <Button android:id="@+id/btn65" style="@style/buttonSmall" android:text="65" />
+    </LinearLayout>
+
+</LinearLayout>

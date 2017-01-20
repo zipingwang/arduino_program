@@ -1,0 +1,4 @@
+contro board has chip FYM20_55. it must be one chip made by themself. search it on internet, found a lot of info about home electronic device.
+
+control board connector to the board of diancilu
+wire 1 gnd, wire2 +, use wire 3 and 4 for communication. analogread wire 3 and 4, the value is 0 or 1023, it has frequency.

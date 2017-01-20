@@ -1,0 +1,58 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <TextView
+        android:text="CommandNr"
+        android:layout_above="@+id/edtCommand"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/edtCommand"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/btnSendA"
+        android:inputType="number"
+        android:layout_width="100dp"
+        android:layout_height="50dp" />
+    <Button
+        android:id="@+id/btnSendA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnSendB"
+        android:layout_centerHorizontal="true"
+        android:text="@string/btn_SendA" />
+
+    <Button
+        android:id="@+id/btnSendB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnOn"
+        android:layout_centerHorizontal="true"
+        android:text="@string/btn_SendB" />
+
+    <Button
+        android:id="@+id/btnOn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnOff"
+        android:layout_centerHorizontal="true"
+        android:text="@string/btn_ON" />
+
+    <Button
+        android:id="@+id/btnOff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="@string/btn_OFF" />
+
+
+    <TextView
+        android:id="@+id/txtResponse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="response"
+        android:layout_below="@id/btnOff"/>
+
+</RelativeLayout>

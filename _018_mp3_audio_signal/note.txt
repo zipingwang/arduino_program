@@ -1,0 +1,3 @@
+don't need arduino sketch file. only hardware
+based on Holiday lights and sounds.
+http://www.jeremyblum.com/2011/12/25/tutorial-14-for-arduino-holiday-lights-and-sounds/

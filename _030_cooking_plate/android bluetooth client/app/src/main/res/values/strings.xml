@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Cooking Plate</string>
+    <string name="btn_OFF">btn_OFF</string>
+    <string name="btn_ON">btn_ON</string>
+    <string name="btn_Send">Send</string>
+    <string name="btn_SendB">SendB</string>
+    <string name="btn_SendA">SendA</string>
+</resources>

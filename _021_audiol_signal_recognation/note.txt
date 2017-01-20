@@ -1,0 +1,3 @@
+test failt
+cann't use it to recognize audio.
+audio signal are not very stable. each time little different
